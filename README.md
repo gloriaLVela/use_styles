@@ -1,3 +1,21 @@
+
+# useStyles
+
+Example from https://blog.bitsrc.io/4-ways-to-override-material-ui-styles-43aee2348ded
+
+Material UI also has support for hooks. It provides us with the useStyles hook to use styles that are created.
+
+We created that from the makeStyle function from Material UI similar to what we do in the previous example.
+
+## Pros
+useStyles is more flexible than the other solutions I presented. We can set any styles with it without much hassle.
+Hooks are also easier to use than higher-order components or components that wrap around our components.
+
+## Cons
+It’s used for styling components individually.
+So it won’t apply all the styles in all our components unless we use the hook in multiple replaces.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
